@@ -1,0 +1,6 @@
+//SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.0;
+
+interface ICAMAEvents {
+    event ConsecutiveTransfer(uint256 indexed fromTokenId, uint256 toTokenId, address indexed fromAddress, address indexed toAddress);
+}
